@@ -3,13 +3,13 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "git-quick"
+name = "git-fast"
 version = "0.1.0"
 description = "A command-line tool for fast git add, commit, and push"
 readme = "README.md"
-requires-python = ">=3.8"
 license = { text = "MIT" }
-
+authors = [{ name = "OliverIida" }]
+requires-python = ">=3.8"
 
 [project.scripts]
-a = "git_quick.__main__:main"
+a = "git_fast.__main__:main"

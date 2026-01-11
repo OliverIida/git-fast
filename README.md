@@ -1,6 +1,6 @@
-# git-quick
+# git-fast
 
-`git-quick` is a small command-line tool that lets you stage, commit, and push changes to a Git repository with a single command.
+`git-fast` is a small command-line tool that lets you stage, commit, and push changes to a Git repository with a single command.
 
 ---
 
@@ -29,6 +29,6 @@ pip install e .
 
 In your project appear:
 `build/`
-`git_quick.egg-info/`
+`git_fast.egg-info/`
 
 Now you are ready to run it locally with `a`
