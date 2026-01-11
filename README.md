@@ -1,14 +1,34 @@
 # git-fast
 
-`git-fast` is a command-line tool that lets you stage, commit, and push changes to a Git repository with a single command - `a`
+`git-fast` is a command-line tool that lets you stage, commit, and push changes to a Git repository with a single command:
 
-View at https://pypi.org/project/git-fast/
+```bash
+a
+```
 
 There are alternatives like having a Shell script in your repo or using built-in Source Control, but I usually work in the terminal and entering `a` seemed much more convenient.
 
+View at https://pypi.org/project/git-fast/
+
 ---
 
-## What it does
+## Installation
+
+Install directly from Pypi:
+
+```bash
+pip install git-fast
+```
+
+Local Installation in this repository:
+
+```bash
+pip install -e .
+```
+
+---
+
+## Usage
 
 When you run:
 
@@ -22,22 +42,12 @@ It automatically stages all changes in your current working directory and prompt
 enter commit message: _
 ```
 
-After writing a message and hitting ENTER, the changes are pushed to the remote repo.
-Entering an empty commit message results in the program doing `git reset` and exiting.
+ - After writing a message and hitting ENTER, the changes are committed and pushed to the remote repo.<br>
+ - Entering an empty commit message results in the program doing `git reset` and exiting.
 
-## How to run locally:
+---
 
-```bash
-pip install e .
-```
-
-In your project appear:
-`build/`
-`git_fast.egg-info/`
-
-Now you are ready to run it locally with `a`
-
-## How to modify, create your own package from this repo
+## Modify, create your own package from this repo
 
 ```bash
 git clone https://github.com/OliverIida/git-fast.git
