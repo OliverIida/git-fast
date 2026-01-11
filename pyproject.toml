@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "git-fast"
-version = "0.1.0"
+version = "0.1.1"
 description = "Quick git add, commit, push in one command"
 readme = "README.md"
 license = { text = "MIT" }

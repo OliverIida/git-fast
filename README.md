@@ -4,6 +4,8 @@
 
 View at https://pypi.org/project/git-fast/
 
+There are alternatives like having a Shell script in your repo or using built-in Source Control, but I usually work in the terminal and entering `a` seemed much more convenient.
+
 ---
 
 ## What it does
